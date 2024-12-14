@@ -1,13 +1,21 @@
-## A Starter Game Template for the LittleKt Game Framework
+## FlappBerry
+FlappBerry is a small project made with LittleKt, inspired by the classic Flappy Bird. It's a simple game where you control a "berry" that jumps when you press the space bar.
 
-This template repository contains a base project for creating games with [LittleKt](https://littlekt.com). It contains
-the bare necessities to get a LittleKt project up and running. This includes the necessary plugins, dependencies and
-source set structure.
+### Controls
+ * Key [Space] for jump.
 
-This project is set up to use all the available platforms that LittleKt currently supports: **JVM**, **Web**, and *
-*Android**.
-If a certain platform isn't needed, simply deleting the source directory and the source sets in
-the `build.gradle.kts` file will get rid of it.
+### Project Purpose
+The goal of this project was to:
+ * Learn how to use LittleKt, a game development framework.
+ * Improve my skills in Kotlin by experimenting with its capabilities for game development.
+ * Practice my pixel art.
+### ScreenShots
+
+Here is a screenshot of the game:
+
+![Game Menu](readme/menu.png)
+![Game Game](readme/game.png)
+![Game Over](readme/gameover.png)
 
 ## Usage
 
