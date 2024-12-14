@@ -1,0 +1,15 @@
+[versions]
+kotlin = "2.1.0"
+kotlinx-html = "0.11.0"
+kotlinx-coroutines = "1.9.0"
+littlekt = "0.10.2"
+
+[libraries]
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinx-coroutines" }
+kotlinx-html-js = { module = "org.jetbrains.kotlinx:kotlinx-html-js", version.ref = "kotlinx-html" }
+
+littlekt-core = { module = "com.littlekt:core", version.ref = "littlekt" }
+littlekt-scenegraph = { module = "com.littlekt:scene-graph", version.ref = "littlekt" }
+
+[plugins]
+kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
